@@ -3,7 +3,10 @@
 
 Универсальное веб-приложение для работы с Markdown: редактор с реальным предпросмотром, шпаргалка по синтаксису и дополнительные функции.
 
-![Demo](https://via.placeholder.com/800x400.png?text=Markdown+Editor+Demo)
+demo:
+```
+https://botswanna.ru/mdred.html
+```
 
 ## Основные возможности
 
@@ -19,12 +22,12 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/markdown-editor.git
+git clone https://github.com/Bybyscan/mdred.git
 ```
 
 2. Откройте в браузере:
 ```bash
-cd markdown-editor && open index.html
+cd mdred && open index.html
 ```
 
 *или используйте Live Server в вашей IDE*
@@ -54,7 +57,7 @@ cd markdown-editor && open index.html
 ## Структура проекта
 
 ```
-markdown-editor/
+mdred/
 ├── index.html          # Основной файл приложения
 ├── README.md           # Документация
 └── assets/             # (Опционально) Дополнительные ресурсы
